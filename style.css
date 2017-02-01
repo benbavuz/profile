@@ -45,7 +45,7 @@ table {
 }
 
 .container {
-  width: 600px;
+  width: 700px;
   margin: 0 auto; /* Automatically set left/right margins */
 }
 
@@ -104,3 +104,54 @@ img {
 .text_lists {
   font-size: 20px;
 }
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0px;
+  top: 0px;
+  bottom: 0;
+  background-color: #26435C;
+  text-align: center;
+;
+}
+#page-content {
+  margin-left: 300px;
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #788188;
